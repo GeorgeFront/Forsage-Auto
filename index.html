@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<title lang="en">Forsage Auto</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="./index.html" class="header__logo">
+					<img src="img/header/logo.svg" alt="Логотип">
+				</a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="#advantages" class="menu__link">ПЕРЕВАГИ</a>
+						</li>
+						<li class="menu__item">
+							<a href="#services" class="menu__link">ПОСЛУГИ</a>
+						</li>
+						<li class="menu__item">
+							<a href="#cars" class="menu__link">ПОПУЛЯРНІ АВТО</a>
+						</li>
+						<li class="menu__item">
+							<a href="#reviews" class="menu__link">ВІДГУКИ</a>
+						</li>
+						<li class="menu__item">
+							<a lang="en" href="#questions" class="menu__link">FAQ</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__info info-header">
+					<div class="info-header__schedule-text">Працюємо кожен день</div>
+					<a href="tel:+380960937115" class="info-header__phone">+380 (96) 093 71 15</a>
+					<button id="copy" type="button" class="info-header__copy-button">Копіювати номер</button>
+				</div>
+				<button type="button" class="header__burger"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__body body-main">
+						<div class="body-main__content">
+							<div class="body-main__subtitle">Працюємо по договору по всій Україні</div>
+							<h1 class="body-main__title">forsage auto</h1>
+							<p class="body-main__description"><strong>Компанія №1 в Україні</strong> по пригону автомобілів
+								з-за кордону</p>
+							<div class="body-main__actions actions-body-main">
+								<div class="actions-body-main__link-wrapper actions-body-main__link-wrapper_green">
+									<a href="#registration"
+										class="actions-body-main__link actions-body-main__link_green">Записатись</a>
+								</div>
+								<div class="actions-body-main__link-wrapper actions-body-main__link-wrapper_dark">
+									<a href="#work" class="actions-body-main__link actions-body-main__link_dark">Детальніше</a>
+								</div>
+							</div>
+						</div>
+						<div class="main__commercial commercial-main">
+							<div class="commercial-main__label">Нам довіряють!</div>
+							<p class="commercial-main__text">
+								100% клієнтів залишились задоволеними після співпраці з нами
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="main__background _ibg">
+					<img class="main__background-image" src="img/main/background.png" alt="Фонове зображення">
+					<img class="main__background-effect" src="img/main/background-effect.png" alt="Фоновий ефект">
+					<div class="main__background-green-filter"></div>
+					<div class="main__background-dark-filter"></div>
+				</div>
+			</section>
+			<section class="page__advantages advantages">
+				<div class="advantages__container">
+					<div class="advantages__image _ibg">
+						<img src="img/advantages/wheel.jpg" alt="Колесо">
+					</div>
+					<div class="advantages__body">
+						<h2 id="advantages" class="advantages__title title">Сильні сторони компанії</h2>
+						<p class="advantages__subtitle subtitle">Чому варто обирати нас?</p>
+						<div class="advantages__items">
+							<div class="advantages__item item-advantages">
+								<div class="item-advantages__icon">
+									<img src="img/advantages/icons/01.svg" alt="icon">
+								</div>
+								<div class="item-advantages__body">
+									<p class="item-advantages__text">
+										Працюємо по договору по всій Україні
+									</p>
+								</div>
+							</div>
+							<div class="advantages__item item-advantages">
+								<div class="item-advantages__icon">
+									<img src="img/advantages/icons/02.svg" alt="icon">
+								</div>
+								<div class="item-advantages__body">
+									<p class="item-advantages__text">
+										Фото-відеозвіт протягом всього процесу роботи
+									</p>
+								</div>
+							</div>
+							<div class="advantages__item item-advantages">
+								<div class="item-advantages__icon">
+									<img src="img/advantages/icons/03.svg" alt="icon">
+								</div>
+								<div class="item-advantages__body">
+									<p class="item-advantages__text">
+										Детальний огляд авто перед покупкою
+									</p>
+								</div>
+							</div>
+							<div class="advantages__item item-advantages">
+								<div class="item-advantages__icon">
+									<img src="img/advantages/icons/04.svg" alt="icon">
+								</div>
+								<div class="item-advantages__body">
+									<p class="item-advantages__text">
+										Допомога Клієнту з переоформленням авто
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__commercial commercial-advantages">
+							<div class="commercial-advantages__amount">БІЛЬШЕ <span>500</span> ЗАДОВОЛЕНИХ</div>
+							<div class="commercial-advantages__clients">КЛІЄНТІВ!</div>
+						</div>
+					</div>
+					<div class="advantages__smoke-background">
+						<img src="img/advantages/smoke-effect.png" alt="Фоновий ефект">
+					</div>
+				</div>
+			</section>
+			<section class="page__work work">
+				<div class="work__container">
+					<div class="work__body">
+						<div class="work__content content-work">
+							<h2 id="work" class="content-work__title title">Як ми працюєм?</h2>
+							<p class="content-work__subtitle subtitle">Ознайомтесь з тим, як працює компанія Forsage Auto</p>
+							<div class="content-work__slider slider-content-work swiper">
+								<div class="slider-content-work__wrapper swiper-wrapper">
+									<div class="slider-content-work__slide swiper-slide">
+										<img src="img/work/slide01.jpg" alt="Слайд">
+									</div>
+									<div class="slider-content-work__slide swiper-slide">
+										<img src="img/work/slide01.jpg" alt="Слайд">
+									</div>
+									<div class="slider-content-work__slide swiper-slide">
+										<img src="img/work/slide01.jpg" alt="Слайд">
+									</div>
+									<div class="slider-content-work__slide swiper-slide">
+										<img src="img/work/slide01.jpg" alt="Слайд">
+									</div>
+								</div>
+								<div class="slider-content-work__buttons-wrapper">
+									<div class="slider-content-work__button swiper-button-prev"></div>
+									<div class="slider-content-work__button swiper-button-next"></div>
+								</div>
+							</div>
+						</div>
+						<div class="work__spoilers spoilers-work">
+							<div class="spoilers-work__items">
+								<div class="spoilers-work__item item-spoilers">
+									<div class="item-spoilers__header">
+										<div class="item-spoilers__number">01</div>
+										<h4 class="item-spoilers__title">КОНСУЛЬТАЦІЯ</h4>
+									</div>
+									<p class="item-spoilers__text">
+										Детальна консультація Клієнта по всім питанням, допомога з вибором авто під вказаний
+										бюджет
+									</p>
+								</div>
+								<div class="spoilers-work__item item-spoilers">
+									<div class="item-spoilers__header">
+										<div class="item-spoilers__number">02</div>
+										<h4 class="item-spoilers__title">УКЛАДЕННЯ ДОГОВОРУ</h4>
+									</div>
+									<p class="item-spoilers__text">
+										Ми працюємо виключно по договору, укласти договір можна в нашому офісі або он-лайн
+									</p>
+								</div>
+								<div class="spoilers-work__item item-spoilers">
+									<div class="item-spoilers__header">
+										<div class="item-spoilers__number">03</div>
+										<h4 class="item-spoilers__title">ПОЧАТОК ПІДБОРУ АВТО</h4>
+									</div>
+									<p class="item-spoilers__text">
+										Наші найкращі експерти по підбору починають шукати підходящий вам автомобіль
+									</p>
+								</div>
+								<div class="spoilers-work__item item-spoilers">
+									<div class="item-spoilers__header">
+										<div class="item-spoilers__number">04</div>
+										<h4 class="item-spoilers__title">ДЕТАЛЬНИЙ ФОТО-ВІДЕОЗВІТ</h4>
+									</div>
+									<p class="item-spoilers__text">
+										фото та відеозвіт найкращих варіантів авто, ви отримаєте все необхідне щоб зробити вибір
+									</p>
+								</div>
+								<div class="spoilers-work__item item-spoilers">
+									<div class="item-spoilers__header">
+										<div class="item-spoilers__number">05</div>
+										<h4 class="item-spoilers__title">ПОКУПКА АВТО ПІСЛЯ УЗГОДЖЕННЯ</h4>
+									</div>
+									<p class="item-spoilers__text">
+										Купівля авто після успішного вибору по всім можливим критеріям
+									</p>
+								</div>
+								<div class="spoilers-work__item item-spoilers">
+									<div class="item-spoilers__header">
+										<div class="item-spoilers__number">06</div>
+										<h4 class="item-spoilers__title">ДОСТАВКА</h4>
+									</div>
+									<p class="item-spoilers__text">
+										Наша компанія доставить ваше майбутнє авто в Україну у найкоротший термін
+									</p>
+								</div>
+								<div class="spoilers-work__item item-spoilers">
+									<div class="item-spoilers__header">
+										<div class="item-spoilers__number">07</div>
+										<h4 class="item-spoilers__title">РОЗМИТНЕННЯ АВТО</h4>
+									</div>
+									<p class="item-spoilers__text">
+										Наші експерти розмитнять ваше авто та поставлять його на облік
+									</p>
+								</div>
+								<div class="spoilers-work__item item-spoilers">
+									<div class="item-spoilers__header">
+										<div class="item-spoilers__number">08</div>
+										<h4 class="item-spoilers__title">ПЕРЕДАЧА АВТО КЛІЄНТУ</h4>
+									</div>
+									<p class="item-spoilers__text">
+										Щасливий Клієнт отримує своє чудове авто
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="work__footer footer-work">
+						<div class="footer-work__text">НАЙКРАЩИЙ ЧАС, ЩОБ ОБРАТИ АВТО МРІЇ - СЬОГОДНІ!</div>
+						<div class="footer-work__link-wrapper link-wrapper link-wrapper_green">
+							<a href="#registration" class="footer-work__link link link_green">Записатись</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<div class="services__header">
+						<h2 id="services" class="services__title title">Послуги компанії</h2>
+						<p class="services__subtitle subtitle">
+							Ми пропонуємо широкий спектр послуг по пригону автомобілів
+						</p>
+					</div>
+					<div class="services__items">
+						<div class="services__item item-services">
+							<div class="item-services__background _ibg">
+								<img src="img/services/flag-europe.jpg" alt="Фонове зображення">
+							</div>
+							<div class="item-services__body">
+								<h3 class="item-services__title title">АВТО З ЄВРОПИ</h3>
+								<p class="item-services__subtitle subtitle">Вибір №1 серед клієнтів!</p>
+								<div class="item-services__image _ibg">
+									<img src="img/services/car01.png" alt="Автомобіль">
+								</div>
+								<div class="item-services__content content-item-services">
+									<div class="content-item-services__price">$400</div>
+									<div class="content-item-services__decor"></div>
+									<div class="content-item-services__text">ВАРТІСТЬ ПОСЛУГИ </div>
+								</div>
+							</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__background _ibg">
+								<img src="img/services/flag-usa.jpg" alt="Фонове зображення">
+							</div>
+							<div class="item-services__body">
+								<h3 class="item-services__title title">АВТО З США</h3>
+								<p class="item-services__subtitle subtitle">Зеконом до 60% вартості!</p>
+								<div class="item-services__image _ibg">
+									<img src="img/services/car02.png" alt="Автомобіль">
+								</div>
+								<div class="item-services__content content-item-services">
+									<div class="content-item-services__price">$500</div>
+									<div class="content-item-services__decor"></div>
+									<div class="content-item-services__text">ВАРТІСТЬ ПОСЛУГИ </div>
+								</div>
+							</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__background _ibg">
+								<img src="img/services/world-map.jpg" alt="Фонове зображення">
+							</div>
+							<div class="item-services__body">
+								<h3 class="item-services__title title">АВТО ЗІ ВСЬОГО СВІТУ</h3>
+								<p class="item-services__subtitle subtitle">Привеземо з будь-якої країни!</p>
+								<div class="item-services__image _ibg">
+									<img src="img/services/car03.png" alt="Автомобіль">
+								</div>
+								<div class="item-services__content content-item-services content-item-services_small">
+									<div class="content-item-services__price content-item-services__price_small">ДОГОВІРНА</div>
+									<div class="content-item-services__decor"></div>
+									<div class="content-item-services__text">ВАРТІСТЬ ПОСЛУГИ </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__registration registration">
+				<div class="registration__container">
+					<div class="registration__header header-registration">
+						<h2 id="registration" class="header-registration__title"><span>Онлайн запис</span> на послуги компанії
+						</h2>
+						<p class="header-registration__text">АВТО ВАШОЇ МРІЇ ВЖЕ ЧЕКАЄ НА ВАС</p>
+					</div>
+					<div class="registration__body body-registration">
+						<form action="#" class="body-registration__form form-registration">
+							<div class="form-registration__content">
+								<div class="form-registration__body">
+									<label for="input-1" class="body-form__label">Введіть Ваше ім’я:</label>
+									<input placeholder="Ім'я" type="text" class="body-form__input">
+								</div>
+								<div class="form-registration__body">
+									<label for="input-2" class="body-form__label">Введіть Ваш телефон:</label>
+									<input placeholder="+380 (96) 000-00-00" type="text" class="body-form__input">
+								</div>
+								<div class="form-registration__body">
+									<label for="input-3" class="body-form__label">Введіть Ваш E-mail:</label>
+									<input placeholder="example@gmail.com" type="text" class="body-form__input">
+								</div>
+							</div>
+							<div class="form-registration__button-wrapper link-wrapper link-wrapper_green">
+								<button type="submit" class="form-registration__button link link_green">Залишити Заявку</button>
+							</div>
+						</form>
+					</div>
+					<div class="registration__footer footer-registration">
+						<p class="footer-registration__text">Скористайтесь нашим <span>Телеграм каналом</span></p>
+						<div class="footer-registration__image-wrapper">
+							<a href="https://t.me/forsage_auto" class="footer-registration__image-link">
+								<div class="footer-registration__image">
+									<img src="img/registration/telegram-icon.svg" alt="">
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="registration__background _ibg">
+					<img src="img/registration/wheels.png" alt="">
+				</div>
+			</section>
+			<section class="page__cars cars">
+				<div class="cars__container">
+					<div class="cars__header">
+						<h2 id="cars" class="cars__title title">Популярні авто</h2>
+						<p class="cars__subtitle subtitle">Ці авто замовляють найчастіше</p>
+					</div>
+					<div class="cars__items">
+						<div class="cars__item item-cars">
+							<div class="item-cars__image _ibg">
+								<img src="img/cars/01.jpg" alt="Автомобіль">
+							</div>
+							<div class="item-cars__content content-item-cars">
+								<div class="content-item-cars__name title">Renault Megane 2008</div>
+								<div class="content-item-cars__prices prices-content-item">
+									<div class="prices-content-item__us">4 000<span>$</span></div>
+									<div class="prices-content-item__uah">(160 000<span>₴</span>)</div>
+								</div>
+								<div class="content-item-cars__description description-content-item">
+									<div class="description-content-item__feature description-content-item__feature-engine">
+										1.6л, Бензин
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-gear">
+										Механічна
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-mileage">
+										150 - 250 000км.
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-year">
+										2008-2012
+									</div>
+								</div>
+							</div>
+							<div class="item-cars__link-wrapper link-wrapper link-wrapper_green">
+								<a href="#registration" class="item-cars__link link link_green">Хочу таке авто</a>
+							</div>
+						</div>
+						<div class="cars__item item-cars">
+							<div class="item-cars__image _ibg">
+								<img src="img/cars/02.jpg" alt="Автомобіль">
+							</div>
+							<div class="item-cars__content content-item-cars">
+								<div class="content-item-cars__name title">Volkswagen Passat 2006</div>
+								<div class="content-item-cars__prices prices-content-item">
+									<div class="prices-content-item__us">7 000<span>$</span></div>
+									<div class="prices-content-item__uah">(280 000<span>₴</span>)</div>
+								</div>
+								<div class="content-item-cars__description description-content-item">
+									<div class="description-content-item__feature description-content-item__feature-engine">
+										1.6л, Бензин
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-gear">
+										Механічна
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-mileage">
+										150 - 250 000км.
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-year">
+										2008-2012
+									</div>
+								</div>
+							</div>
+							<div class="item-cars__link-wrapper link-wrapper link-wrapper_green">
+								<a href="#registration" class="item-cars__link link link_green">Хочу таке авто</a>
+							</div>
+						</div>
+						<div class="cars__item item-cars">
+							<div class="item-cars__image _ibg">
+								<img src="img/cars/03.jpg" alt="Автомобіль">
+							</div>
+							<div class="item-cars__content content-item-cars">
+								<div class="content-item-cars__name title">Volkswagen Touran 2003</div>
+								<div class="content-item-cars__prices prices-content-item">
+									<div class="prices-content-item__us">4 000<span>$</span></div>
+									<div class="prices-content-item__uah">(160 000<span>₴</span>)</div>
+								</div>
+								<div class="content-item-cars__description description-content-item">
+									<div class="description-content-item__feature description-content-item__feature-engine">
+										1.6л, Бензин
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-gear">
+										Механічна
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-mileage">
+										150 - 250 000км.
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-year">
+										2008-2012
+									</div>
+								</div>
+							</div>
+							<div class="item-cars__link-wrapper link-wrapper link-wrapper_green">
+								<a href="#registration" class="item-cars__link link link_green">Хочу таке авто</a>
+							</div>
+						</div>
+						<div class="cars__item item-cars">
+							<div class="item-cars__image _ibg">
+								<img src="img/cars/01.jpg" alt="Автомобіль">
+							</div>
+							<div class="item-cars__content content-item-cars">
+								<div class="content-item-cars__name title">Renault Megane 2008</div>
+								<div class="content-item-cars__prices prices-content-item">
+									<div class="prices-content-item__us">4 000<span>$</span></div>
+									<div class="prices-content-item__uah">(160 000<span>₴</span>)</div>
+								</div>
+								<div class="content-item-cars__description description-content-item">
+									<div class="description-content-item__feature description-content-item__feature-engine">
+										1.6л, Бензин
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-gear">
+										Механічна
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-mileage">
+										150 - 250 000км.
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-year">
+										2008-2012
+									</div>
+								</div>
+							</div>
+							<div class="item-cars__link-wrapper link-wrapper link-wrapper_green">
+								<a href="#registration" class="item-cars__link link link_green">Хочу таке авто</a>
+							</div>
+						</div>
+						<div class="cars__item item-cars">
+							<div class="item-cars__image _ibg">
+								<img src="img/cars/02.jpg" alt="Автомобіль">
+							</div>
+							<div class="item-cars__content content-item-cars">
+								<div class="content-item-cars__name title">Volkswagen Passat 2006</div>
+								<div class="content-item-cars__prices prices-content-item">
+									<div class="prices-content-item__us">7 000<span>$</span></div>
+									<div class="prices-content-item__uah">(280 000<span>₴</span>)</div>
+								</div>
+								<div class="content-item-cars__description description-content-item">
+									<div class="description-content-item__feature description-content-item__feature-engine">
+										1.6л, Бензин
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-gear">
+										Механічна
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-mileage">
+										150 - 250 000км.
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-year">
+										2008-2012
+									</div>
+								</div>
+							</div>
+							<div class="item-cars__link-wrapper link-wrapper link-wrapper_green">
+								<a href="#registration" class="item-cars__link link link_green">Хочу таке авто</a>
+							</div>
+						</div>
+						<div class="cars__item item-cars">
+							<div class="item-cars__image _ibg">
+								<img src="img/cars/03.jpg" alt="Автомобіль">
+							</div>
+							<div class="item-cars__content content-item-cars">
+								<div class="content-item-cars__name title">Volkswagen Touran 2003</div>
+								<div class="content-item-cars__prices prices-content-item">
+									<div class="prices-content-item__us">4 000<span>$</span></div>
+									<div class="prices-content-item__uah">(160 000<span>₴</span>)</div>
+								</div>
+								<div class="content-item-cars__description description-content-item">
+									<div class="description-content-item__feature description-content-item__feature-engine">
+										1.6л, Бензин
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-gear">
+										Механічна
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-mileage">
+										150 - 250 000км.
+									</div>
+									<div class="description-content-item__feature description-content-item__feature-year">
+										2008-2012
+									</div>
+								</div>
+							</div>
+							<div class="item-cars__link-wrapper link-wrapper link-wrapper_green">
+								<a href="#registration" class="item-cars__link link link_green">Хочу таке авто</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__reviews reviews">
+				<div class="reviews__decor-top">
+					<img src="img/reviews/decor.svg" alt="Декор">
+					<img src="img/reviews/decor.svg" alt="Декор">
+				</div>
+				<div class="reviews__decor-bottom">
+					<img src="img/reviews/decor.svg" alt="Декор">
+					<img src="img/reviews/decor.svg" alt="Декор">
+				</div>
+				<div class="reviews__container">
+					<div class="reviews__header">
+						<h2 id="reviews" class="reviews__title title">Наші Відгуки</h2>
+						<p class="reviews__subtitle subtitle">
+							Перегляньте що після співпраці говорять наші клієнти
+						</p>
+					</div>
+					<div class="reviews__body body-reviews">
+						<div class="body-reviews__slider slider-body-reviews swiper">
+							<div class="slider-body-reviews__wrapper swiper-wrapper">
+								<div class="slider-body-reviews__slide slide-reviews-slider swiper-slide">
+									<div class="slide-reviews-slider__image _ibg">
+										<img src="img/reviews/slide01.jpg" alt="Слайд">
+									</div>
+									<div class="slide-reviews-slider__body body-slide">
+										<div class="body-slide__content">
+											<h4 class="body-slide__title title">RENAULT SCENIC 2008</h4>
+											<div class="body-slide__text">
+												<p>
+													Дуже вдячний команді Forsage Auto за їхню допомогу, ніяк не міг знайти підходяще
+													авто, та в кінці кінців, вирішив звернутись до хлопців. Сервісом був приємно
+													здивований, такого підходу до клієнта я ще ніде не бачив.
+												</p>
+												<p>
+													Дуже швидко знайшли спільну мову, обрали потрібне авто в інтернеті, та вже через
+													2 тижні воно було в мене! Машиною задоволений на всі 100%, буде служити не один
+													рік. Рекомендую команду Forsage Auto, буду звертатись тільки до них!
+												</p>
+											</div>
+										</div>
+										<div class="body-slide__name">Владислав Ющенко</div>
+									</div>
+								</div>
+								<div class="slider-body-reviews__slide slide-reviews-slider swiper-slide">
+									<div class="slide-reviews-slider__image _ibg">
+										<img src="img/reviews/slide01.jpg" alt="Слайд">
+									</div>
+									<div class="slide-reviews-slider__body body-slide">
+										<div class="body-slide__content">
+											<h4 class="body-slide__title title">RENAULT SCENIC 2008</h4>
+											<div class="body-slide__text">
+												<p>
+													Дуже вдячний команді Forsage Auto за їхню допомогу, ніяк не міг знайти підходяще
+													авто, та в кінці кінців, вирішив звернутись до хлопців. Сервісом був приємно
+													здивований, такого підходу до клієнта я ще ніде не бачив.
+												</p>
+												<p>
+													Дуже швидко знайшли спільну мову, обрали потрібне авто в інтернеті, та вже через
+													2 тижні воно було в мене! Машиною задоволений на всі 100%, буде служити не один
+													рік. Рекомендую команду Forsage Auto, буду звертатись тільки до них!
+												</p>
+											</div>
+										</div>
+										<div class="body-slide__name">Владислав Ющенко</div>
+									</div>
+								</div>
+								<div class="slider-body-reviews__slide slide-reviews-slider swiper-slide">
+									<div class="slide-reviews-slider__image _ibg">
+										<img src="img/reviews/slide01.jpg" alt="Слайд">
+									</div>
+									<div class="slide-reviews-slider__body body-slide">
+										<div class="body-slide__content">
+											<h4 class="body-slide__title title">RENAULT SCENIC 2008</h4>
+											<div class="body-slide__text">
+												<p>
+													Дуже вдячний команді Forsage Auto за їхню допомогу, ніяк не міг знайти підходяще
+													авто, та в кінці кінців, вирішив звернутись до хлопців. Сервісом був приємно
+													здивований, такого підходу до клієнта я ще ніде не бачив.
+												</p>
+												<p>
+													Дуже швидко знайшли спільну мову, обрали потрібне авто в інтернеті, та вже через
+													2 тижні воно було в мене! Машиною задоволений на всі 100%, буде служити не один
+													рік. Рекомендую команду Forsage Auto, буду звертатись тільки до них!
+												</p>
+											</div>
+										</div>
+										<div class="body-slide__name">Владислав Ющенко</div>
+									</div>
+								</div>
+								<div class="slider-body-reviews__slide slide-reviews-slider swiper-slide">
+									<div class="slide-reviews-slider__image _ibg">
+										<img src="img/reviews/slide01.jpg" alt="Слайд">
+									</div>
+									<div class="slide-reviews-slider__body body-slide">
+										<div class="body-slide__content">
+											<h4 class="body-slide__title title">RENAULT SCENIC 2008</h4>
+											<div class="body-slide__text">
+												<p>
+													Дуже вдячний команді Forsage Auto за їхню допомогу, ніяк не міг знайти підходяще
+													авто, та в кінці кінців, вирішив звернутись до хлопців. Сервісом був приємно
+													здивований, такого підходу до клієнта я ще ніде не бачив.
+												</p>
+												<p>
+													Дуже швидко знайшли спільну мову, обрали потрібне авто в інтернеті, та вже через
+													2 тижні воно було в мене! Машиною задоволений на всі 100%, буде служити не один
+													рік. Рекомендую команду Forsage Auto, буду звертатись тільки до них!
+												</p>
+											</div>
+										</div>
+										<div class="body-slide__name">Владислав Ющенко</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-body-reviews__buttons-wrapper">
+								<div class="slider-body-reviews__button swiper-button-prev"></div>
+								<div class="slider-body-reviews__button swiper-button-next"></div>
+							</div>
+						</div>
+						<div class="body-reviews__link-wrapper link-wrapper link-wrapper_green">
+							<a href="#" class="body-reviews__link link link_green">Переглянути всі відгуки</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__questions questions">
+				<div class="questions__background">
+					<div class="questions__background-top _ibg">
+						<img src="img/questions/background-top.jpg" alt="">
+					</div>
+					<div class="questions__background-bottom _ibg">
+						<img src="img/questions/background-bottom.jpg" alt="">
+					</div>
+				</div>
+				<div class="questions__container">
+					<div class="questions__header">
+						<h2 id="questions" class="questions__title title">Відповіді на запитання</h2>
+						<p class="questions__subtitle subtitle">
+							Перегляньте відповіді на найчастіші запитання
+						</p>
+					</div>
+					<div class="questions__body">
+						<div class="questions__spoilers spoilers-questions">
+							<div class="spoilers-questions__items">
+								<div class="spoilers-questions__item item-spoilers-questions item-spoilers">
+									<div class="item-spoilers-questions__header item-spoilers__header">
+										<div class="item-spoilers-questions__header-content">
+											<div class="item-spoilers-questions__number item-spoilers__number">01</div>
+											<h4 class="item-spoilers-questions__title item-spoilers__title">ЯК МЕНІ ЗВ’ЯЗАТИСЬ З
+												ВАМИ?</h4>
+										</div>
+										<div class="item-spoilers-questions__header-opener"></div>
+									</div>
+									<p class="item-spoilers-questions__text item-spoilers__text">
+										Ми займаємось пригоном автомобілів з усього світу, тобто ви можете замовити пригон авто як
+										з країн Європи, так і з ОАЕ, Китаю, США, та інших
+									</p>
+								</div>
+								<div class="spoilers-questions__item item-spoilers-questions item-spoilers">
+									<div class="item-spoilers-questions__header item-spoilers__header">
+										<div class="item-spoilers-questions__header-content">
+											<div class="item-spoilers-questions__number item-spoilers__number">02</div>
+											<h4 class="item-spoilers-questions__title item-spoilers__title">ЯКА МІНІМАЛЬНА СУМА
+												КУПІВЛІ АВТОМОБІЛЯ У ВАС?</h4>
+										</div>
+										<div class="item-spoilers-questions__header-opener"></div>
+									</div>
+									<p class="item-spoilers-questions__text item-spoilers__text">
+										Ми займаємось пригоном автомобілів з усього світу, тобто ви можете замовити пригон авто як
+										з країн Європи, так і з ОАЕ, Китаю, США, та інших
+									</p>
+								</div>
+								<div class="spoilers-questions__item item-spoilers-questions item-spoilers">
+									<div class="item-spoilers-questions__header item-spoilers__header">
+										<div class="item-spoilers-questions__header-content">
+											<div class="item-spoilers-questions__number item-spoilers__number">03</div>
+											<h4 class="item-spoilers-questions__title item-spoilers__title">СКІЛЬКИ ЧЕКАТИ СВОЄ
+												АВТО?</h4>
+										</div>
+										<div class="item-spoilers-questions__header-opener"></div>
+									</div>
+									<p class="item-spoilers-questions__text item-spoilers__text">
+										Ми займаємось пригоном автомобілів з усього світу, тобто ви можете замовити пригон авто як
+										з країн Європи, так і з ОАЕ, Китаю, США, та інших
+									</p>
+								</div>
+								<div class="spoilers-questions__item item-spoilers-questions item-spoilers">
+									<div class="item-spoilers-questions__header item-spoilers__header">
+										<div class="item-spoilers-questions__header-content">
+											<div class="item-spoilers-questions__number item-spoilers__number">04</div>
+											<h4 class="item-spoilers-questions__title item-spoilers__title">ЧИ ДОПОМОЖЕТЕ МЕНІ
+												ОФОРМИТИ МОЄ АВТО?</h4>
+										</div>
+										<div class="item-spoilers-questions__header-opener"></div>
+									</div>
+									<p class="item-spoilers-questions__text item-spoilers__text">
+										Ми займаємось пригоном автомобілів з усього світу, тобто ви можете замовити пригон авто як
+										з країн Європи, так і з ОАЕ, Китаю, США, та інших
+									</p>
+								</div>
+								<div class="spoilers-questions__item item-spoilers-questions item-spoilers">
+									<div class="item-spoilers-questions__header item-spoilers__header">
+										<div class="item-spoilers-questions__header-content">
+											<div class="item-spoilers-questions__number item-spoilers__number">05</div>
+											<h4 class="item-spoilers-questions__title item-spoilers__title">З ЯКИХ КРАЇН МОЖЛИВО
+												ПРИГНАТИ АВТО?</h4>
+										</div>
+										<div class="item-spoilers-questions__header-opener"></div>
+									</div>
+									<p class="item-spoilers-questions__text item-spoilers__text">
+										Ми займаємось пригоном автомобілів з усього світу, тобто ви можете замовити пригон авто як
+										з країн Європи, так і з ОАЕ, Китаю, США, та інших
+									</p>
+								</div>
+								<div class="spoilers-questions__item item-spoilers-questions item-spoilers">
+									<div class="item-spoilers-questions__header item-spoilers__header">
+										<div class="item-spoilers-questions__header-content">
+											<div class="item-spoilers-questions__number item-spoilers__number">06</div>
+											<h4 class="item-spoilers-questions__title item-spoilers__title">ЧИ ОБОВ’ЯЗКОВО
+												ПРИЇЖДЖАТИ ДО ВАС В ОФІС, ЧИ МОЖНА ЗРОБИТИ
+												ВСЕ ОН-ЛАЙН?</h4>
+										</div>
+										<div class="item-spoilers-questions__header-opener"></div>
+									</div>
+									<p class="item-spoilers-questions__text item-spoilers__text">
+										Ми займаємось пригоном автомобілів з усього світу, тобто ви можете замовити пригон авто як
+										з країн Європи, так і з ОАЕ, Китаю, США, та інших
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="questions__footer footer-questions">
+						<div class="footer-questions__text">Залишились запитання? <br> <strong>Запишіться на
+								консультацію!</strong>
+						</div>
+						<div class="footer-questions__link-wrapper link-wrapper link-wrapper_green">
+							<a href="#registration" class="footer-questions__link link link_green">Записатись на
+								консультацію</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__social social-top-footer">
+						<a href="./index.html" class="social-top-footer__logo">
+							<img src="img/footer/logo.svg" alt="Логотип">
+						</a>
+						<div class="social-top-footer__text">Довіра та Чесність - головні слова в співпраці з клієнтом!</div>
+						<ul class="social-top-footer__list">
+							<li class="social-top-footer__item">
+								<a href="https://twitter.com/?lang=ru" class="social-top-footer__link">
+									<img src="img/footer/icons/twitter.svg" alt="Твіттер">
+								</a>
+							</li>
+							<li class="social-top-footer__item">
+								<a href="https://uk-ua.facebook.com/" class="social-top-footer__link">
+									<img src="img/footer/icons/facebook.svg" alt="Фейсбук">
+								</a>
+							</li>
+							<li class="social-top-footer__item">
+								<a href="https://www.instagram.com/forsage_auto_/" class="social-top-footer__link">
+									<img src="img/footer/icons/instagram.svg" alt="Інстаграм">
+								</a>
+							</li>
+							<li class="social-top-footer__item">
+								<a href="https://www.youtube.com/" class="social-top-footer__link">
+									<img src="img/footer/icons/youtube.svg" alt="Ютуб">
+								</a>
+							</li>
+							<li class="social-top-footer__item">
+								<a href="https://www.tiktok.com/@forsage_auto?_t=8gjZFJYUMNC&_r=1"
+									class="social-top-footer__link">
+									<img src="img/footer/icons/tik-tok.svg" alt="Тік-ток">
+								</a>
+							</li>
+							<li class="social-top-footer__item">
+								<a href="https://ua.linkedin.com/" class="social-top-footer__link">
+									<img src="img/footer/icons/linkedin.svg" alt="Лінкедін">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-footer__navigation navigation-top-footer">
+						<h4 class="navigation-top-footer__title">Навігація</h4>
+						<nav class="navigation-top-footer__menu menu-navigation">
+							<ul class="menu-navigation__list">
+								<li class="menu-navigation__item">
+									<a href="#advantages" class="menu-navigation__link">ПЕРЕВАГИ</a>
+								</li>
+								<li class="menu-navigation__item">
+									<a href="#services" class="menu-navigation__link">ПОСЛУГИ</a>
+								</li>
+								<li class="menu-navigation__item">
+									<a href="#cars" class="menu-navigation__link">ПОПУЛЯРНІ АВТО</a>
+								</li>
+								<li class="menu-navigation__item">
+									<a href="#reviews" class="menu-navigation__link">ВІДГУКИ</a>
+								</li>
+								<li class="menu-navigation__item">
+									<a href="#questions" class="menu-navigation__link" lang="en">FAQ</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="top-footer__contacts contacts-top-footer">
+						<h4 class="contacts-top-footer__title">Контакти</h4>
+						<address class="contacts-top-footer__address address-contacts">
+							<ul class="address-contacts__list">
+								<li class="address-contacts__item address-contacts__item_geo">
+									<a href="https://maps.app.goo.gl/kMNNP6ZAUcUAwnie7" class="address-contacts__link">Офіс:
+										Вінниця, Хмельницьке шоссе 114В</a>
+								</li>
+								<li class="address-contacts__item address-contacts__item_phone">
+									<a href="tel:+380960937115" class="address-contacts__link">+380 (96) 093 71 15</a>
+								</li>
+							</ul>
+						</address>
+						<div class="contacts-top-footer__link-wrapper link-wrapper link-wrapper_green">
+							<a href="#registration" class="contacts-top-footer__link link link_green">Записатись</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__copy">Copyright Forsage Auto (c)</div>
+					<div class="bottom-footer__rights">@Forsage Auto, All Rights Reserved - 2023</div>
+					<div class="bottom-footer__author">Created by Dmytro Mora</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

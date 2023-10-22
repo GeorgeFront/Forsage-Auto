@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Fontspring-DEMO-organetto-ultrabold';
+  src: url(./Fontspring-DEMO-organetto-ultrabold.eot);
+  src: url(./Fontspring-DEMO-organetto-ultrabold.eot?#iefix) format('embedded-opentype'),
+       url(./Fontspring-DEMO-organetto-ultrabold.otf) format('otf'),
+       url(./Fontspring-DEMO-organetto-ultrabold.ttf) format('truetype'),
+       url(./Fontspring-DEMO-organetto-ultrabold.woff) format('woff'),
+       url(./Fontspring-DEMO-organetto-ultrabold.woff2) format('woff2');
+}
